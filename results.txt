@@ -1,0 +1,5 @@
+root:x:0:0:root:/root:/bin/bash
+u1:x:1000:1000:u1:/home/u1:/bin/bash
+jenkins:x:124:126:Jenkins,,,:/var/lib/jenkins:/bin/bash
+user2:x:1002:1002:u1:/home/user2:/bin/bash
+user3:x:1003:1003:u1:/home/user3:/bin/bash
