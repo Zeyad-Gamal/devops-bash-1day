@@ -119,3 +119,115 @@ Zeyad:x:1001:1001::/home/Zeyad:/bin/sh
 user2:x:1002:1002:u1:/home/user2:/bin/bourne-again
 user3:x:1003:1003:u1:/home/user3:/bin/bourne-again
 sshd:x:125:65534::/run/sshd:/usr/sbin/nologin
+Task4
+root
+daemon
+bin
+sys
+sync
+games
+man
+lp
+mail
+news
+uucp
+proxy
+www-data
+backup
+Mailing List Manager
+ircd
+
+nobody
+systemd Network Management
+systemd Time Synchronization
+DHCP Client Daemon,,,
+
+
+systemd Resolver
+
+usbmux daemon,,,
+TPM software stack,,,
+systemd Userspace OOM Killer
+Kernel Oops Tracking Daemon,,,
+
+dnsmasq
+Avahi mDNS daemon,,,
+
+SSSD system user,,,
+Speech Dispatcher,,,
+user for cups-pk-helper service,,,
+Firmware update daemon
+
+
+
+HPLIP system user,,,
+GNOME Remote Desktop
+User for polkitd
+RealtimeKit,,,
+colord colour management daemon,,,
+
+Gnome Display Manager
+NetworkManager OpenVPN,,,
+u1
+
+Prometheus daemon,,,
+
+Jenkins,,,
+
+u1
+u1
+
+Task5
+sync 4 sync
+_apt 42 
+nobody 65534 nobody
+systemd-network 998 systemd Network Management
+systemd-timesync 996 systemd Time Synchronization
+dhcpcd 100 DHCP Client Daemon,,,
+messagebus 101 
+syslog 102 
+systemd-resolve 991 systemd Resolver
+uuidd 103 
+tss 105 TPM software stack,,,
+systemd-oom 990 systemd Userspace OOM Killer
+kernoops 106 Kernel Oops Tracking Daemon,,,
+whoopsie 107 
+dnsmasq 999 dnsmasq
+avahi 108 Avahi mDNS daemon,,,
+tcpdump 109 
+sssd 110 SSSD system user,,,
+cups-pk-helper 112 user for cups-pk-helper service,,,
+fwupd-refresh 989 Firmware update daemon
+saned 113 
+geoclue 114 
+cups-browsed 115 
+gnome-remote-desktop 988 GNOME Remote Desktop
+polkitd 987 User for polkitd
+rtkit 117 RealtimeKit,,,
+colord 118 colord colour management daemon,,,
+gnome-initial-setup 119 
+gdm 120 Gnome Display Manager
+nm-openvpn 121 NetworkManager OpenVPN,,,
+u1 1000 u1
+grafana 122 
+prometheus 123 Prometheus daemon,,,
+vault 997 
+jenkins 124 Jenkins,,,
+Zeyad 1001 
+user2 1002 u1
+user3 1003 u1
+sshd 125 
+Task6
+10 news:x:9:9:news:/var/spool/news:/usr/sbin/nologin
+11 uucp:x:10:10:uucp:/var/spool/uucp:/usr/sbin/nologin
+12 proxy:x:13:13:proxy:/bin:/usr/sbin/nologin
+13 www-data:x:33:33:www-data:/var/www:/usr/sbin/nologin
+14 backup:x:34:34:backup:/var/backups:/usr/sbin/nologin
+15 list:x:38:38:Mailing List Manager:/var/list:/usr/sbin/nologin
+16 irc:x:39:39:ircd:/run/ircd:/usr/sbin/nologin
+17 _apt:x:42:65534::/nonexistent:/usr/sbin/nologin
+18 nobody:x:65534:65534:nobody:/nonexistent:/usr/sbin/nologin
+19 systemd-network:x:998:998:systemd Network Management:/:/usr/sbin/nologin
+20 systemd-timesync:x:996:996:systemd Time Synchronization:/:/usr/sbin/nologin
+Task7
+538725
